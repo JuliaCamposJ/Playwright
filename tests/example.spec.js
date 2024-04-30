@@ -1,6 +1,5 @@
 // @ts-check
 const { test, expect } = require('@playwright/test');
-
 test.use({
   viewport: { width: 1600, height: 1200 },
 });
